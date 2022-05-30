@@ -1,0 +1,13 @@
+<!ELEMENT courses (course)*>
+<!ELEMENT course (faculty|courseID|courseName|students)*>
+<!ELEMENT faculty (#PCDATA)>
+<!ELEMENT courseID (#PCDATA)>
+<!ELEMENT courseName (#PCDATA)>
+<!ELEMENT students (student)*>
+<!ELEMENT student (first_name|last_name|cpr_number|phone|email)*>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT cpr_number (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
